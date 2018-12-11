@@ -13,7 +13,7 @@ static const int NAVIGATION_HEIGHT = 64;
 #define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
 #define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
 
-@interface PostMessageViewController () <UITextViewDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate,TPFriendsChooseViewControllerProtocol>
+@interface PostMessageViewController () <UITextViewDelegate,TPFriendsChooseViewControllerProtocol>
 {
     NSUInteger      lowerLimit;
     
