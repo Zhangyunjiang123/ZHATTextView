@@ -1,7 +1,9 @@
 # ZHATTextView
 
 今天项目新增的话题功能，类似于新浪微博，可以@他人、并且@他人和话题的文本必须是高亮状态。
+
 ![image](https://github.com/Zhangyunjiang123/ZHATTextView/blob/master/at_1.gif)
+
 其实实现名字高亮状态特别的简单，只需要通过正则表达式进行字符搜索，将特定字符改变颜色
 
     NSString *pattern1 = @"\\@(.*?)\\ ";
